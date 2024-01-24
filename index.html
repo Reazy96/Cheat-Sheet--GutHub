@@ -19,13 +19,13 @@
         <ul>
           <h3>How to</h3>
           <li>
-            <span>( git add . )</span> Fügt alle Änderungen im
+            <code>( git add . )</code> Fügt alle Änderungen im
             Arbeitsverzeichnis (neue, geänderte und gelöschte Dateien) dem
             Staging-Bereich hinzu. Schritte: Hinzufügen aller Änderungen im
             Arbeitsverzeichnis zum Staging-Bereich.
           </li>
           <li>
-            <span>( git commit -m "name" )</span> Erstellt einen neuen Commit
+            <code>( git commit -m "name" )</code> Erstellt einen neuen Commit
             mit den im Staging-Bereich befindlichen Änderungen und einer
             Commit-Nachricht. Schritte: Committet die im Staging-Bereich
             befindlichen Änderungen. Die -m Option ermöglicht es, eine
@@ -33,7 +33,7 @@
             commit -m "Name des Commits".
           </li>
           <li>
-            <span>( git push )</span>Überträgt lokale Commits zum
+            <code>( git push )</code>Überträgt lokale Commits zum
             Remote-Repository auf GitHub (oder einem anderen Git-Host).
             Schritte: Übertragung der lokalen Commits auf das Remote-Repository.
             Andere Teammitglieder können dann diese Änderungen herunterladen, um
@@ -50,22 +50,24 @@
         <ul>
           <h3>How to</h3>
           <li>
-            <span>( git branch NAME ) </span>Erstellt eine neue branch und gibt
+            <code>( git branch NAME ) </code>Erstellt eine neue branch und gibt
             der branch einen Namen
           </li>
           <li>
-            <span>( git checkout NAME ) </span>Wechselt zu dem branch wessen
+            <code>( git checkout NAME ) </code>Wechselt zu dem branch wessen
             Namen du dahinter schreibst
           </li>
           <li>
-            <span>( git checkout -b NAME )</span> Erstellt eine branch mit Namen
+            <code>( git checkout -b NAME )</code> Erstellt eine branch mit Namen
             und wechselt sofort in die branch
           </li>
           <li>
-            <span>( git branch )</span> Zeigt alle vorhandenen branches an und
+            <code>( git branch )</code> Zeigt alle vorhandenen branches an und
             "*" zeigt dir in welchem branch du dich befindest
           </li>
-          <li>(git branch -d NAME) Löscht den genannten branch</li>
+          <li>
+            <code>( git branch -d NAME )</code> Löscht den genannten branch
+          </li>
         </ul>
       </article>
       <article>
@@ -77,16 +79,16 @@
         <ul>
           <h3>How to</h3>
           <li>
-            <span>( git merge )</span> Versucht den main branch mit deinem
+            <code>( git merge )</code> Versucht den main branch mit deinem
             feature branch zusammenzufügen
           </li>
           <li>
-            <span
-              >( git add . )( git commit -m "merge branch" )( git push )</span
+            <code> ( git add . )</code>  <code>( git commit -m "merge branch" )</code> <code>(git push )</code></span
             >
             den zusammengefassten branch hochladen
           </li>
           <li>fertige branches kann man löschen</li>
+          
         </ul>
       </article>
       <article>
@@ -97,16 +99,16 @@
         <ul>
           <h3>How to</h3>
           <li>
-            <span>( git log--oneline )</span> --oneline zeigt dir den
+            <code>( git log--oneline )</code> --oneline zeigt dir den
             zusammengefassten Verlauf von deinen commits an
           </li>
           <li>
-            <span>( git checkout 1234567 )</span> geht auf die mit der id
+            <code>( git checkout 1234567 )</code> geht auf die mit der id
             genannte Version zurück
           </li>
           <li>mit " Q " auf das normale Terminal schalten</li>
           <li>
-            <span>( git add . )( git commit -m "back" )(git push)</span>
+            <code>( git add . )( git commit -m "back" )(git push)</code>
             dokumentiere dass du eine Version zurück bist
           </li>
         </ul>
